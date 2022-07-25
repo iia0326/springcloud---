@@ -1,0 +1,44 @@
+2022-07-25 16:18:10.165  INFO 16392 --- [main] com.shop.service.log.LogApplication      : No active profile set, falling back to default profiles: default
+2022-07-25 16:18:11.420  WARN 16392 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-07-25 16:18:11.805  INFO 16392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-25 16:18:11.807  INFO 16392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-25 16:18:11.852  INFO 16392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2022-07-25 16:18:11.975  WARN 16392 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-25 16:18:12.245  INFO 16392 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=135d17f3-4b44-321a-ba1e-b8f25eceec03
+2022-07-25 16:18:12.838  INFO 16392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9201 (http)
+2022-07-25 16:18:12.849  INFO 16392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 16:18:12.849  INFO 16392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-25 16:18:12.851  INFO 16392 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-07-25 16:18:12.851  INFO 16392 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-25 16:18:12.852  INFO 16392 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-25 16:18:12.856  INFO 16392 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-07-25 16:18:13.207  INFO 16392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-25 16:18:13.208  INFO 16392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3013 ms
+2022-07-25 16:18:13.353  WARN 16392 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 16:18:13.353  INFO 16392 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 16:18:13.370  INFO 16392 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2fd64b11
+2022-07-25 16:18:16.219  WARN 16392 --- [main] o.s.s.o.p.t.s.JwtAccessTokenConverter    : Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2022-07-25 16:18:16.297  WARN 16392 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 16:18:16.297  INFO 16392 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 16:18:16.545  INFO 16392 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-25 16:18:18.460  INFO 16392 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:20.036  INFO 16392 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2022-07-25 16:18:20.183  INFO 16392 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: df343053-d021-49b8-90bd-d4760db51d75
+
+2022-07-25 16:18:20.473  INFO 16392 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38054d01, org.springframework.security.web.context.SecurityContextPersistenceFilter@305e95a4, org.springframework.security.web.header.HeaderWriterFilter@7417ef4f, org.springframework.security.web.authentication.logout.LogoutFilter@1760e594, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@2299d903, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18d610e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6728370a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28ce75ec, org.springframework.security.web.session.SessionManagementFilter@71e7830a, org.springframework.security.web.access.ExceptionTranslationFilter@59127611, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c4cceb]
+2022-07-25 16:18:23.154  INFO 16392 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:23.205  WARN 16392 --- [main] s.o.SpringCloudSecurityAutoConfiguration : All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2022-07-25 16:18:23.211  INFO 16392 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 20 endpoint(s) beneath base path '/actuator'
+2022-07-25 16:18:23.866  INFO 16392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9201 (http) with context path ''
+2022-07-25 16:18:23.888  INFO 16392 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP log-service 169.254.80.27:9201 register finished
+2022-07-25 16:18:25.541  INFO 16392 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:26.150  INFO 16392 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2022-07-25 16:18:26.160  INFO 16392 --- [main] com.shop.service.log.LogApplication      : Started LogApplication in 20.127 seconds (JVM running for 21.566)
+2022-07-25 16:18:26.323  INFO 16392 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 589b43b1bab2
+2022-07-25 16:18:26.378  INFO 16392 --- [http-nio-9201-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 16:18:26.379  INFO 16392 --- [http-nio-9201-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 16:18:26.388  INFO 16392 --- [http-nio-9201-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2022-07-25 16:18:26.472  INFO 16392 --- [http-nio-9201-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-25 16:18:26.643  INFO 16392 --- [http-nio-9201-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.

@@ -1,0 +1,268 @@
+2022-07-25 16:18:31.675  INFO 19288 --- [main] com.kangyi.MapApplication                : No active profile set, falling back to default profiles: default
+2022-07-25 16:18:33.287  WARN 19288 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-07-25 16:18:33.706  INFO 19288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-25 16:18:33.710  INFO 19288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-25 16:18:33.773  INFO 19288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+2022-07-25 16:18:33.876  WARN 19288 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-25 16:18:34.001  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.kangyi.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.001  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'geLiMapper' and 'com.kangyi.mapper.GeLiMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.001  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guanzhuMapper' and 'com.kangyi.mapper.GuanzhuMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.002  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guiJiMapper' and 'com.kangyi.mapper.GuiJiMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.002  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'heSuanMapper' and 'com.kangyi.mapper.HeSuanMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.002  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'jiaruMapper' and 'com.kangyi.mapper.JiaruMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.002  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'logMapMapper' and 'com.kangyi.mapper.LogMapMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.002  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'logMapper' and 'com.kangyi.mapper.LogMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.002  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'logMapper2' and 'com.kangyi.mapper.LogMapper2' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.002  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'menuMapper' and 'com.kangyi.mapper.MenuMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.002  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'menuRoleMapper' and 'com.kangyi.mapper.MenuRoleMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.003  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderMapper' and 'com.kangyi.mapper.OrderMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.003  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'permissionMapper' and 'com.kangyi.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.003  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'quartzBeanMapper' and 'com.kangyi.mapper.QuartzBeanMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.003  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roleMapper' and 'com.kangyi.mapper.RoleMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.003  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'rolePermissionMapper' and 'com.kangyi.mapper.RolePermissionMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.003  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.kangyi.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.003  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'yiMiaoMapper' and 'com.kangyi.mapper.YiMiaoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:18:34.004  WARN 19288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.kangyi.mapper]' package. Please check your configuration.
+2022-07-25 16:18:34.123  INFO 19288 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e1272dac-06fc-3265-85db-80cb0d55a742
+2022-07-25 16:18:34.133  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'myConfig' of type [com.kangyi.config.MyConfig$$EnhancerBySpringCGLIB$$7ba20a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:34.196  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.kangyi.feign.MapFeignService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:34.197  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.kangyi.feign.TestFeignService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:34.197  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.kangyi.feign.TokenService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:34.223  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:34.327  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:34.344  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$528bb57d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:34.346  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$2e6f3e55] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:34.348  INFO 19288 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-25 16:18:34.415  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:34.464  INFO 19288 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-25 16:18:34.464  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:35.560  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:35.567  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:35.568  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:35.570  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [com.sun.proxy.$Proxy84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:35.573  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:35.574  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [com.sun.proxy.$Proxy85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:35.575  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.kangyi.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:35.580  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:35.581  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:35.581  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.kangyi.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:35.582  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.kangyi.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:36.075  INFO 19288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'manager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:36.691  INFO 19288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9301 (http)
+2022-07-25 16:18:36.709  INFO 19288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 16:18:36.710  INFO 19288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-25 16:18:36.713  INFO 19288 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-07-25 16:18:36.713  INFO 19288 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-25 16:18:36.713  INFO 19288 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-25 16:18:36.719  INFO 19288 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-07-25 16:18:37.223  INFO 19288 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-25 16:18:37.230  INFO 19288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-25 16:18:37.230  INFO 19288 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5517 ms
+2022-07-25 16:18:37.370  WARN 19288 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 16:18:37.370  INFO 19288 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 16:18:37.385  INFO 19288 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@161d95c6
+2022-07-25 16:18:40.350  INFO 19288 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:40.753  INFO 19288 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-07-25 16:18:40.837  INFO 19288 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'MyThreadPool'
+2022-07-25 16:18:40.869  INFO 19288 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-25 16:18:40.891  WARN 19288 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 16:18:40.892  INFO 19288 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 16:18:41.543  INFO 19288 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2022-07-25 16:18:41.762  INFO 19288 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-07-25 16:18:41.774  INFO 19288 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-07-25 16:18:41.774  INFO 19288 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-07-25 16:18:41.775  INFO 19288 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-07-25 16:18:41.776  INFO 19288 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-25 16:18:41.776  INFO 19288 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-07-25 16:18:41.776  INFO 19288 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-07-25 16:18:41.776  INFO 19288 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@23dff243
+2022-07-25 16:18:41.808  WARN 19288 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-07-25 16:18:43.288  INFO 19288 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:43.540  INFO 19288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9301 (http) with context path ''
+2022-07-25 16:18:43.555  INFO 19288 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP map-service 169.254.80.27:9301 register finished
+2022-07-25 16:18:44.992  INFO 19288 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:44.992  INFO 19288 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-25 16:18:45.008  INFO 19288 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-25 16:18:45.056  INFO 19288 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-25 16:18:45.227  WARN 19288 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:18:45.230  WARN 19288 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:18:45.231  WARN 19288 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:18:45.232  WARN 19288 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:18:45.233  WARN 19288 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:18:45.233  WARN 19288 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:18:45.234  WARN 19288 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:18:45.235  WARN 19288 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:18:45.304  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_1
+2022-07-25 16:18:45.305  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_1
+2022-07-25 16:18:45.306  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_1
+2022-07-25 16:18:45.308  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_1
+2022-07-25 16:18:45.309  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_1
+2022-07-25 16:18:45.310  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_1
+2022-07-25 16:18:45.312  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_1
+2022-07-25 16:18:45.313  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_1
+2022-07-25 16:18:45.343  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingGET_1
+2022-07-25 16:18:45.344  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingHEAD_1
+2022-07-25 16:18:45.345  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPOST_1
+2022-07-25 16:18:45.346  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPUT_1
+2022-07-25 16:18:45.346  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPATCH_1
+2022-07-25 16:18:45.347  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingDELETE_1
+2022-07-25 16:18:45.348  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingOPTIONS_1
+2022-07-25 16:18:45.349  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingTRACE_1
+2022-07-25 16:18:45.352  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_2
+2022-07-25 16:18:45.355  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_2
+2022-07-25 16:18:45.358  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_2
+2022-07-25 16:18:45.361  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_2
+2022-07-25 16:18:45.363  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_2
+2022-07-25 16:18:45.366  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_2
+2022-07-25 16:18:45.369  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_2
+2022-07-25 16:18:45.371  INFO 19288 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_2
+2022-07-25 16:18:45.412  INFO 19288 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2022-07-25 16:18:45.412  INFO 19288 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-07-25 16:18:45.437  INFO 19288 --- [main] com.kangyi.MapApplication                : Started MapApplication in 18.11 seconds (JVM running for 20.117)
+2022-07-25 16:18:45.556  INFO 19288 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as cf9feaa221b6
+2022-07-25 16:18:45.605  INFO 19288 --- [http-nio-9301-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 16:18:45.606  INFO 19288 --- [http-nio-9301-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 16:18:45.616  INFO 19288 --- [http-nio-9301-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-07-25 16:18:45.693  INFO 19288 --- [http-nio-9301-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2022-07-25 16:18:45.732  INFO 19288 --- [http-nio-9301-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6e017950:0/SimpleConnection@4df4c701 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57306]
+2022-07-25 16:21:02.868  INFO 15756 --- [main] com.kangyi.MapApplication                : No active profile set, falling back to default profiles: default
+2022-07-25 16:21:04.232  WARN 15756 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-07-25 16:21:04.589  INFO 15756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-25 16:21:04.592  INFO 15756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-25 16:21:04.646  INFO 15756 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37ms. Found 0 Redis repository interfaces.
+2022-07-25 16:21:04.742  WARN 15756 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-25 16:21:04.863  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.kangyi.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.863  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'geLiMapper' and 'com.kangyi.mapper.GeLiMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.863  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guanzhuMapper' and 'com.kangyi.mapper.GuanzhuMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.863  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guiJiMapper' and 'com.kangyi.mapper.GuiJiMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.864  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'heSuanMapper' and 'com.kangyi.mapper.HeSuanMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.864  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'jiaruMapper' and 'com.kangyi.mapper.JiaruMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.864  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'logMapMapper' and 'com.kangyi.mapper.LogMapMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.864  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'logMapper' and 'com.kangyi.mapper.LogMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.864  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'logMapper2' and 'com.kangyi.mapper.LogMapper2' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.864  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'menuMapper' and 'com.kangyi.mapper.MenuMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.864  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'menuRoleMapper' and 'com.kangyi.mapper.MenuRoleMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.864  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderMapper' and 'com.kangyi.mapper.OrderMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.865  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'permissionMapper' and 'com.kangyi.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.865  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'quartzBeanMapper' and 'com.kangyi.mapper.QuartzBeanMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.865  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roleMapper' and 'com.kangyi.mapper.RoleMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.865  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'rolePermissionMapper' and 'com.kangyi.mapper.RolePermissionMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.865  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.kangyi.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.865  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'yiMiaoMapper' and 'com.kangyi.mapper.YiMiaoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:21:04.866  WARN 15756 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.kangyi.mapper]' package. Please check your configuration.
+2022-07-25 16:21:04.983  INFO 15756 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e1272dac-06fc-3265-85db-80cb0d55a742
+2022-07-25 16:21:04.992  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'myConfig' of type [com.kangyi.config.MyConfig$$EnhancerBySpringCGLIB$$c17db259] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:05.055  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.kangyi.feign.MapFeignService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:05.056  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.kangyi.feign.TestFeignService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:05.057  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.kangyi.feign.TokenService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:05.083  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:05.190  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:05.208  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$c4f4736] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:05.210  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$e832d00e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:05.212  INFO 15756 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-25 16:21:05.279  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:05.327  INFO 15756 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-25 16:21:05.327  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:06.419  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:06.426  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:06.427  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:06.429  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [com.sun.proxy.$Proxy84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:06.432  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:06.433  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [com.sun.proxy.$Proxy85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:06.434  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.kangyi.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:06.439  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:06.440  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:06.440  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.kangyi.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:06.440  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.kangyi.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:06.933  INFO 15756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'manager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:21:07.437  INFO 15756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9301 (http)
+2022-07-25 16:21:07.449  INFO 15756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 16:21:07.449  INFO 15756 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-25 16:21:07.451  INFO 15756 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-07-25 16:21:07.451  INFO 15756 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-25 16:21:07.451  INFO 15756 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-25 16:21:07.455  INFO 15756 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-07-25 16:21:07.922  INFO 15756 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-25 16:21:07.929  INFO 15756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-25 16:21:07.929  INFO 15756 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5031 ms
+2022-07-25 16:21:08.058  WARN 15756 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 16:21:08.058  INFO 15756 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 16:21:08.072  INFO 15756 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7e0f9528
+2022-07-25 16:21:11.017  INFO 15756 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:21:11.435  INFO 15756 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-07-25 16:21:11.521  INFO 15756 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'MyThreadPool'
+2022-07-25 16:21:11.553  INFO 15756 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-25 16:21:11.576  WARN 15756 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 16:21:11.576  INFO 15756 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 16:21:12.243  INFO 15756 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2022-07-25 16:21:12.460  INFO 15756 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-07-25 16:21:12.471  INFO 15756 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-07-25 16:21:12.472  INFO 15756 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-07-25 16:21:12.472  INFO 15756 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-07-25 16:21:12.473  INFO 15756 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-25 16:21:12.473  INFO 15756 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-07-25 16:21:12.473  INFO 15756 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-07-25 16:21:12.474  INFO 15756 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@62410e1f
+2022-07-25 16:21:12.504  WARN 15756 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-07-25 16:21:13.980  INFO 15756 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:21:14.241  INFO 15756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9301 (http) with context path ''
+2022-07-25 16:21:14.253  INFO 15756 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP map-service 169.254.80.27:9301 register finished
+2022-07-25 16:21:15.683  INFO 15756 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:21:15.684  INFO 15756 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-25 16:21:15.699  INFO 15756 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-25 16:21:15.746  INFO 15756 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-25 16:21:15.922  WARN 15756 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:21:15.924  WARN 15756 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:21:15.925  WARN 15756 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:21:15.926  WARN 15756 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:21:15.927  WARN 15756 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:21:15.928  WARN 15756 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:21:15.929  WARN 15756 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:21:15.930  WARN 15756 --- [main] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-25 16:21:15.999  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_1
+2022-07-25 16:21:16.000  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_1
+2022-07-25 16:21:16.001  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_1
+2022-07-25 16:21:16.002  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_1
+2022-07-25 16:21:16.004  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_1
+2022-07-25 16:21:16.005  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_1
+2022-07-25 16:21:16.006  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_1
+2022-07-25 16:21:16.007  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_1
+2022-07-25 16:21:16.038  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingGET_1
+2022-07-25 16:21:16.039  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingHEAD_1
+2022-07-25 16:21:16.040  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPOST_1
+2022-07-25 16:21:16.041  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPUT_1
+2022-07-25 16:21:16.042  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPATCH_1
+2022-07-25 16:21:16.042  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingDELETE_1
+2022-07-25 16:21:16.043  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingOPTIONS_1
+2022-07-25 16:21:16.044  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingTRACE_1
+2022-07-25 16:21:16.048  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_2
+2022-07-25 16:21:16.051  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_2
+2022-07-25 16:21:16.053  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_2
+2022-07-25 16:21:16.056  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_2
+2022-07-25 16:21:16.059  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_2
+2022-07-25 16:21:16.062  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_2
+2022-07-25 16:21:16.064  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_2
+2022-07-25 16:21:16.067  INFO 15756 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_2
+2022-07-25 16:21:16.105  INFO 15756 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2022-07-25 16:21:16.105  INFO 15756 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-07-25 16:21:16.129  INFO 15756 --- [main] com.kangyi.MapApplication                : Started MapApplication in 17.386 seconds (JVM running for 18.942)
+2022-07-25 16:21:16.245  INFO 15756 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as cf9feaa221b6
+2022-07-25 16:21:16.292  INFO 15756 --- [http-nio-9301-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 16:21:16.292  INFO 15756 --- [http-nio-9301-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 16:21:16.304  INFO 15756 --- [http-nio-9301-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2022-07-25 16:21:16.383  INFO 15756 --- [http-nio-9301-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2022-07-25 16:21:16.421  INFO 15756 --- [http-nio-9301-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#68c4a860:0/SimpleConnection@569f878c [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57434]

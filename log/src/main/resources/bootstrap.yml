@@ -1,0 +1,88 @@
+server:
+  port: 9201 #本服务端口,9开头1监控，2日志。3地图。4博客
+
+  servlet:
+    session:
+      timeout: 36000 #配置session过期时间
+file:
+  path: D:/static/
+#  path: /Users/zhangyunpeng/Documents/IdeaProjects/shop-service/static/
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 1000MB # 单个文件的最大值
+      max-request-size: 1000MB # 上传文件总的最大值
+  mvc:
+    static-path-pattern: /public/**
+  resources:
+    #静态资源路径
+    static-locations: file:${file.path}
+    #windows系统使用这个
+    #static-locations: file:D:/static/
+  session:
+    store-type: redis #springsession存储在redis中
+    timeout: 36000 #同样是配置session过期时间与上面的要求一直
+    redis:
+      namespace: kangyi:session #在redis中的存储前缀
+  jackson:
+    time-zone: "GMT+8" #设置当前项目的时区为东八区
+  application:
+    name: log-service #本服务的名称
+  cloud:
+#    nacos注册中心配置
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  boot:
+#    admin监控信息连接配置
+    admin:
+      client:
+        url: http://localhost:9100
+        enabled: true
+  redis:
+    database: 1 #配置redis连接的数据库序号
+    host: localhost #配置redis地址
+    port: 6379 #配置redis端口
+    password: #配置redis密码，如果有的话
+    jedis: #配置redis连接池
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+    timeout: 3000 #配置超时时间
+
+  datasource:
+    #url中需要使用serverTimezone配置时区否则时间会出现问题
+    url: jdbc:mysql://localhost:3306/kanyi_cloud?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
+    password: 123456789
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+management:
+#  服务监控配置
+  server:
+#    健康监控端口要求与服务端口一致
+    port: 9201
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    endpoint:
+      health:
+        show-details: always
+logging:
+  file:
+    path: kangyi-log/log-service.log
+#    feign的微服务调用配置
+feign:
+  hystrix:
+    enabled: true
+  httpclient:
+    connection-timeout: 100000
+#ribbon:
+#  eager-load:
+#    enabled: true
+#    clients: user-service,oauth-service,log-service,gateway-service,shop-service
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

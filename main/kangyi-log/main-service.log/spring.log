@@ -1,0 +1,847 @@
+2022-07-18 18:57:18.028  INFO 17536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-18 18:57:20.024  INFO 17536 --- [restartedMain] com.kangyi.MainApplication               : No active profile set, falling back to default profiles: default
+2022-07-18 18:57:21.339  WARN 17536 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-07-18 18:57:21.701  INFO 17536 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-18 18:57:21.709  INFO 17536 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-18 18:57:21.770  INFO 17536 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45ms. Found 0 Redis repository interfaces.
+2022-07-18 18:57:21.898  WARN 17536 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-18 18:57:22.114  INFO 17536 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d4101f05-ddd2-347d-87ad-d44b0b4263b3
+2022-07-18 18:57:22.123  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myConfig' of type [com.kangyi.config.MyConfig$$EnhancerBySpringCGLIB$$5b484827] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:22.168  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:22.275  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:22.291  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$a619dd04] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:22.294  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$81fd65dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:22.296  INFO 17536 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-18 18:57:22.368  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:22.417  INFO 17536 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-18 18:57:22.417  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:23.506  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:23.513  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:23.514  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:23.516  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [com.sun.proxy.$Proxy84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:23.520  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:23.520  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [com.sun.proxy.$Proxy85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:23.521  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.kangyi.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:23.526  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:23.527  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:23.527  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.kangyi.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:23.527  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.kangyi.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:24.016  INFO 17536 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'manager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:57:24.764  INFO 17536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9600 (http)
+2022-07-18 18:57:24.777  INFO 17536 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-18 18:57:24.777  INFO 17536 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-18 18:57:24.780  INFO 17536 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-07-18 18:57:24.780  INFO 17536 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-18 18:57:24.780  INFO 17536 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-18 18:57:24.784  INFO 17536 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-07-18 18:57:25.280  INFO 17536 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-18 18:57:25.287  INFO 17536 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-18 18:57:25.287  INFO 17536 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5239 ms
+2022-07-18 18:57:25.418  WARN 17536 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-18 18:57:25.419  INFO 17536 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-18 18:57:25.433  INFO 17536 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@45cb4f64
+2022-07-18 18:57:26.140  INFO 17536 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-07-18 18:57:26.150  INFO 17536 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-07-18 18:57:26.150  INFO 17536 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-07-18 18:57:26.151  INFO 17536 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-07-18 18:57:26.152  INFO 17536 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-18 18:57:26.152  INFO 17536 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-07-18 18:57:26.152  INFO 17536 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-07-18 18:57:26.152  INFO 17536 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1dea54b8
+2022-07-18 18:57:28.099  INFO 17536 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-18 18:57:28.512  INFO 17536 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-07-18 18:57:28.595  INFO 17536 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'MyThreadPool'
+2022-07-18 18:57:28.627  INFO 17536 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-18 18:57:28.649  WARN 17536 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-18 18:57:28.649  INFO 17536 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-18 18:57:28.825  INFO 17536 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-18 18:57:29.384  INFO 17536 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2022-07-18 18:57:31.139  INFO 17536 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-18 18:57:31.398  INFO 17536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9600 (http) with context path ''
+2022-07-18 18:57:31.412  INFO 17536 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP main 169.254.80.27:9600 register finished
+2022-07-18 18:57:32.853  INFO 17536 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-18 18:57:32.854  INFO 17536 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-18 18:57:32.885  INFO 17536 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-18 18:57:32.938  INFO 17536 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-18 18:57:33.124  WARN 17536 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:57:33.126  WARN 17536 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:57:33.127  WARN 17536 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:57:33.128  WARN 17536 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:57:33.129  WARN 17536 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:57:33.130  WARN 17536 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:57:33.131  WARN 17536 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:57:33.132  WARN 17536 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:57:33.200  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_1
+2022-07-18 18:57:33.201  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_1
+2022-07-18 18:57:33.202  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_1
+2022-07-18 18:57:33.204  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_1
+2022-07-18 18:57:33.205  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_1
+2022-07-18 18:57:33.206  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_1
+2022-07-18 18:57:33.207  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_1
+2022-07-18 18:57:33.209  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_1
+2022-07-18 18:57:33.239  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingGET_1
+2022-07-18 18:57:33.240  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingHEAD_1
+2022-07-18 18:57:33.241  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPOST_1
+2022-07-18 18:57:33.242  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPUT_1
+2022-07-18 18:57:33.243  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPATCH_1
+2022-07-18 18:57:33.244  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingDELETE_1
+2022-07-18 18:57:33.244  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingOPTIONS_1
+2022-07-18 18:57:33.245  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingTRACE_1
+2022-07-18 18:57:33.249  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_2
+2022-07-18 18:57:33.252  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_2
+2022-07-18 18:57:33.254  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_2
+2022-07-18 18:57:33.257  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_2
+2022-07-18 18:57:33.260  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_2
+2022-07-18 18:57:33.262  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_2
+2022-07-18 18:57:33.265  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_2
+2022-07-18 18:57:33.268  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_2
+2022-07-18 18:57:33.329  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingGET_1
+2022-07-18 18:57:33.330  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingHEAD_1
+2022-07-18 18:57:33.332  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPOST_1
+2022-07-18 18:57:33.333  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPUT_1
+2022-07-18 18:57:33.334  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPATCH_1
+2022-07-18 18:57:33.335  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingDELETE_1
+2022-07-18 18:57:33.336  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingOPTIONS_1
+2022-07-18 18:57:33.337  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingTRACE_1
+2022-07-18 18:57:33.349  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingGET_1
+2022-07-18 18:57:33.350  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingHEAD_1
+2022-07-18 18:57:33.350  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPOST_1
+2022-07-18 18:57:33.351  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPUT_1
+2022-07-18 18:57:33.351  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPATCH_1
+2022-07-18 18:57:33.352  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingDELETE_1
+2022-07-18 18:57:33.352  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingOPTIONS_1
+2022-07-18 18:57:33.353  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingTRACE_1
+2022-07-18 18:57:33.354  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingGET_1
+2022-07-18 18:57:33.355  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingHEAD_1
+2022-07-18 18:57:33.355  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPOST_1
+2022-07-18 18:57:33.356  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPUT_1
+2022-07-18 18:57:33.356  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPATCH_1
+2022-07-18 18:57:33.357  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingDELETE_1
+2022-07-18 18:57:33.357  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingOPTIONS_1
+2022-07-18 18:57:33.358  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingTRACE_1
+2022-07-18 18:57:33.368  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingGET_1
+2022-07-18 18:57:33.369  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingHEAD_1
+2022-07-18 18:57:33.370  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPOST_1
+2022-07-18 18:57:33.371  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPUT_1
+2022-07-18 18:57:33.371  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPATCH_1
+2022-07-18 18:57:33.372  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingDELETE_1
+2022-07-18 18:57:33.373  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingOPTIONS_1
+2022-07-18 18:57:33.373  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingTRACE_1
+2022-07-18 18:57:33.421  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2022-07-18 18:57:33.424  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingHEAD_1
+2022-07-18 18:57:33.426  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingPOST_1
+2022-07-18 18:57:33.429  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingPUT_1
+2022-07-18 18:57:33.431  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingPATCH_1
+2022-07-18 18:57:33.434  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingDELETE_1
+2022-07-18 18:57:33.436  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingOPTIONS_1
+2022-07-18 18:57:33.439  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingTRACE_1
+2022-07-18 18:57:33.455  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingGET_1
+2022-07-18 18:57:33.456  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingHEAD_1
+2022-07-18 18:57:33.456  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingPOST_1
+2022-07-18 18:57:33.457  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingPUT_1
+2022-07-18 18:57:33.458  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingPATCH_1
+2022-07-18 18:57:33.458  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingDELETE_1
+2022-07-18 18:57:33.459  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingOPTIONS_1
+2022-07-18 18:57:33.460  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingTRACE_1
+2022-07-18 18:57:33.658  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingGET_2
+2022-07-18 18:57:33.658  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingHEAD_2
+2022-07-18 18:57:33.659  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPOST_2
+2022-07-18 18:57:33.659  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPUT_2
+2022-07-18 18:57:33.660  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPATCH_2
+2022-07-18 18:57:33.660  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingDELETE_2
+2022-07-18 18:57:33.661  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingOPTIONS_2
+2022-07-18 18:57:33.661  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingTRACE_2
+2022-07-18 18:57:33.663  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_3
+2022-07-18 18:57:33.665  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_3
+2022-07-18 18:57:33.668  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_3
+2022-07-18 18:57:33.671  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_3
+2022-07-18 18:57:33.673  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_3
+2022-07-18 18:57:33.675  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_3
+2022-07-18 18:57:33.677  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_3
+2022-07-18 18:57:33.679  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_3
+2022-07-18 18:57:33.733  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingGET_1
+2022-07-18 18:57:33.733  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingHEAD_1
+2022-07-18 18:57:33.733  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPOST_1
+2022-07-18 18:57:33.734  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPUT_1
+2022-07-18 18:57:33.734  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPATCH_1
+2022-07-18 18:57:33.734  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingDELETE_1
+2022-07-18 18:57:33.735  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingOPTIONS_1
+2022-07-18 18:57:33.735  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingTRACE_1
+2022-07-18 18:57:33.744  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingGET_1
+2022-07-18 18:57:33.745  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingHEAD_1
+2022-07-18 18:57:33.746  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingPOST_1
+2022-07-18 18:57:33.746  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingPUT_1
+2022-07-18 18:57:33.747  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingPATCH_1
+2022-07-18 18:57:33.747  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingDELETE_1
+2022-07-18 18:57:33.748  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingOPTIONS_1
+2022-07-18 18:57:33.749  INFO 17536 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingTRACE_1
+2022-07-18 18:57:33.824  INFO 17536 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2022-07-18 18:57:33.825  INFO 17536 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-07-18 18:57:33.851  INFO 17536 --- [restartedMain] com.kangyi.MainApplication               : Started MainApplication in 17.856 seconds (JVM running for 19.421)
+2022-07-18 18:57:37.998  WARN 17536 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=main, managementUrl=http://iia9903.mshome.net:9600/actuator, healthUrl=http://iia9903.mshome.net:9600/actuator/health, serviceUrl=http://iia9903.mshome.net:9600/) at spring-boot-admin ([http://localhost:9100/instances]): I/O error on POST request for "http://localhost:9100/instances": Connect to localhost:9100 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9100 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect. Further attempts are logged on DEBUG level
+2022-07-18 18:57:48.839  INFO 17536 --- [http-nio-9600-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-18 18:57:48.840  INFO 17536 --- [http-nio-9600-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-18 18:57:48.850  INFO 17536 --- [http-nio-9600-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-07-18 18:59:00.133  INFO 17216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-18 18:59:02.120  INFO 17216 --- [restartedMain] com.kangyi.MainApplication               : No active profile set, falling back to default profiles: default
+2022-07-18 18:59:03.441  WARN 17216 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-07-18 18:59:03.811  INFO 17216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-18 18:59:03.814  INFO 17216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-18 18:59:03.874  INFO 17216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45ms. Found 0 Redis repository interfaces.
+2022-07-18 18:59:03.997  WARN 17216 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-18 18:59:04.220  INFO 17216 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d4101f05-ddd2-347d-87ad-d44b0b4263b3
+2022-07-18 18:59:04.230  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myConfig' of type [com.kangyi.config.MyConfig$$EnhancerBySpringCGLIB$$f04ee541] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:04.275  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:04.380  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:04.395  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$3b207a1e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:04.399  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$170402f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:04.401  INFO 17216 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-18 18:59:04.473  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:04.523  INFO 17216 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-18 18:59:04.523  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:05.620  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:05.627  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:05.628  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:05.630  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [com.sun.proxy.$Proxy84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:05.633  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:05.634  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [com.sun.proxy.$Proxy85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:05.635  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.kangyi.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:05.640  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:05.641  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:05.641  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.kangyi.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:05.641  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.kangyi.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:06.137  INFO 17216 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'manager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 18:59:06.888  INFO 17216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9600 (http)
+2022-07-18 18:59:06.900  INFO 17216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-18 18:59:06.900  INFO 17216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-18 18:59:06.903  INFO 17216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-07-18 18:59:06.903  INFO 17216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-18 18:59:06.904  INFO 17216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-18 18:59:06.908  INFO 17216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-07-18 18:59:07.406  INFO 17216 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-18 18:59:07.413  INFO 17216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-18 18:59:07.413  INFO 17216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5268 ms
+2022-07-18 18:59:07.542  WARN 17216 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-18 18:59:07.542  INFO 17216 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-18 18:59:07.556  INFO 17216 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@d85e806
+2022-07-18 18:59:08.256  INFO 17216 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-07-18 18:59:08.266  INFO 17216 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-07-18 18:59:08.266  INFO 17216 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-07-18 18:59:08.267  INFO 17216 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-07-18 18:59:08.268  INFO 17216 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-18 18:59:08.268  INFO 17216 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-07-18 18:59:08.268  INFO 17216 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-07-18 18:59:08.268  INFO 17216 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@c5eabce
+2022-07-18 18:59:10.225  INFO 17216 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-18 18:59:10.642  INFO 17216 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-07-18 18:59:10.726  INFO 17216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'MyThreadPool'
+2022-07-18 18:59:10.758  INFO 17216 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-18 18:59:10.781  WARN 17216 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-18 18:59:10.781  INFO 17216 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-18 18:59:10.961  INFO 17216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-18 18:59:11.556  INFO 17216 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2022-07-18 18:59:13.321  INFO 17216 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-18 18:59:13.575  INFO 17216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9600 (http) with context path ''
+2022-07-18 18:59:13.588  INFO 17216 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP main 169.254.80.27:9600 register finished
+2022-07-18 18:59:15.040  INFO 17216 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-18 18:59:15.041  INFO 17216 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-18 18:59:15.065  INFO 17216 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-18 18:59:15.115  INFO 17216 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-18 18:59:15.295  WARN 17216 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:59:15.298  WARN 17216 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:59:15.299  WARN 17216 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:59:15.300  WARN 17216 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:59:15.300  WARN 17216 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:59:15.301  WARN 17216 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:59:15.302  WARN 17216 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:59:15.303  WARN 17216 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 18:59:15.371  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_1
+2022-07-18 18:59:15.372  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_1
+2022-07-18 18:59:15.374  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_1
+2022-07-18 18:59:15.375  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_1
+2022-07-18 18:59:15.376  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_1
+2022-07-18 18:59:15.378  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_1
+2022-07-18 18:59:15.378  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_1
+2022-07-18 18:59:15.379  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_1
+2022-07-18 18:59:15.409  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingGET_1
+2022-07-18 18:59:15.410  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingHEAD_1
+2022-07-18 18:59:15.411  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPOST_1
+2022-07-18 18:59:15.411  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPUT_1
+2022-07-18 18:59:15.412  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPATCH_1
+2022-07-18 18:59:15.413  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingDELETE_1
+2022-07-18 18:59:15.414  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingOPTIONS_1
+2022-07-18 18:59:15.415  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingTRACE_1
+2022-07-18 18:59:15.418  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_2
+2022-07-18 18:59:15.421  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_2
+2022-07-18 18:59:15.424  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_2
+2022-07-18 18:59:15.426  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_2
+2022-07-18 18:59:15.429  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_2
+2022-07-18 18:59:15.432  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_2
+2022-07-18 18:59:15.434  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_2
+2022-07-18 18:59:15.437  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_2
+2022-07-18 18:59:15.500  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingGET_1
+2022-07-18 18:59:15.501  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingHEAD_1
+2022-07-18 18:59:15.502  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPOST_1
+2022-07-18 18:59:15.504  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPUT_1
+2022-07-18 18:59:15.505  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPATCH_1
+2022-07-18 18:59:15.506  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingDELETE_1
+2022-07-18 18:59:15.507  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingOPTIONS_1
+2022-07-18 18:59:15.508  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingTRACE_1
+2022-07-18 18:59:15.520  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingGET_1
+2022-07-18 18:59:15.521  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingHEAD_1
+2022-07-18 18:59:15.521  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPOST_1
+2022-07-18 18:59:15.522  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPUT_1
+2022-07-18 18:59:15.522  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPATCH_1
+2022-07-18 18:59:15.523  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingDELETE_1
+2022-07-18 18:59:15.523  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingOPTIONS_1
+2022-07-18 18:59:15.524  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingTRACE_1
+2022-07-18 18:59:15.525  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingGET_1
+2022-07-18 18:59:15.525  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingHEAD_1
+2022-07-18 18:59:15.526  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPOST_1
+2022-07-18 18:59:15.526  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPUT_1
+2022-07-18 18:59:15.527  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPATCH_1
+2022-07-18 18:59:15.528  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingDELETE_1
+2022-07-18 18:59:15.528  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingOPTIONS_1
+2022-07-18 18:59:15.529  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingTRACE_1
+2022-07-18 18:59:15.539  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingGET_1
+2022-07-18 18:59:15.540  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingHEAD_1
+2022-07-18 18:59:15.541  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPOST_1
+2022-07-18 18:59:15.542  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPUT_1
+2022-07-18 18:59:15.542  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPATCH_1
+2022-07-18 18:59:15.543  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingDELETE_1
+2022-07-18 18:59:15.544  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingOPTIONS_1
+2022-07-18 18:59:15.544  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingTRACE_1
+2022-07-18 18:59:15.590  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2022-07-18 18:59:15.593  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingHEAD_1
+2022-07-18 18:59:15.595  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingPOST_1
+2022-07-18 18:59:15.598  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingPUT_1
+2022-07-18 18:59:15.600  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingPATCH_1
+2022-07-18 18:59:15.603  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingDELETE_1
+2022-07-18 18:59:15.605  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingOPTIONS_1
+2022-07-18 18:59:15.607  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingTRACE_1
+2022-07-18 18:59:15.624  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingGET_1
+2022-07-18 18:59:15.624  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingHEAD_1
+2022-07-18 18:59:15.625  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingPOST_1
+2022-07-18 18:59:15.626  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingPUT_1
+2022-07-18 18:59:15.627  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingPATCH_1
+2022-07-18 18:59:15.627  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingDELETE_1
+2022-07-18 18:59:15.628  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingOPTIONS_1
+2022-07-18 18:59:15.629  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingTRACE_1
+2022-07-18 18:59:15.839  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingGET_2
+2022-07-18 18:59:15.840  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingHEAD_2
+2022-07-18 18:59:15.840  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPOST_2
+2022-07-18 18:59:15.841  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPUT_2
+2022-07-18 18:59:15.841  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPATCH_2
+2022-07-18 18:59:15.842  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingDELETE_2
+2022-07-18 18:59:15.842  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingOPTIONS_2
+2022-07-18 18:59:15.843  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingTRACE_2
+2022-07-18 18:59:15.845  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_3
+2022-07-18 18:59:15.848  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_3
+2022-07-18 18:59:15.850  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_3
+2022-07-18 18:59:15.852  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_3
+2022-07-18 18:59:15.855  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_3
+2022-07-18 18:59:15.857  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_3
+2022-07-18 18:59:15.859  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_3
+2022-07-18 18:59:15.862  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_3
+2022-07-18 18:59:15.917  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingGET_1
+2022-07-18 18:59:15.917  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingHEAD_1
+2022-07-18 18:59:15.917  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPOST_1
+2022-07-18 18:59:15.918  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPUT_1
+2022-07-18 18:59:15.918  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPATCH_1
+2022-07-18 18:59:15.918  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingDELETE_1
+2022-07-18 18:59:15.919  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingOPTIONS_1
+2022-07-18 18:59:15.919  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingTRACE_1
+2022-07-18 18:59:15.928  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingGET_1
+2022-07-18 18:59:15.929  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingHEAD_1
+2022-07-18 18:59:15.930  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingPOST_1
+2022-07-18 18:59:15.930  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingPUT_1
+2022-07-18 18:59:15.931  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingPATCH_1
+2022-07-18 18:59:15.931  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingDELETE_1
+2022-07-18 18:59:15.932  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingOPTIONS_1
+2022-07-18 18:59:15.933  INFO 17216 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingTRACE_1
+2022-07-18 18:59:16.009  INFO 17216 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2022-07-18 18:59:16.009  INFO 17216 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-07-18 18:59:16.034  INFO 17216 --- [restartedMain] com.kangyi.MainApplication               : Started MainApplication in 17.906 seconds (JVM running for 19.489)
+2022-07-18 18:59:20.198  WARN 17216 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=main, managementUrl=http://iia9903.mshome.net:9600/actuator, healthUrl=http://iia9903.mshome.net:9600/actuator/health, serviceUrl=http://iia9903.mshome.net:9600/) at spring-boot-admin ([http://localhost:9100/instances]): I/O error on POST request for "http://localhost:9100/instances": Connect to localhost:9100 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9100 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect. Further attempts are logged on DEBUG level
+2022-07-18 18:59:23.663  INFO 17216 --- [http-nio-9600-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-18 18:59:23.663  INFO 17216 --- [http-nio-9600-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-18 18:59:23.674  INFO 17216 --- [http-nio-9600-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2022-07-18 19:02:54.001  INFO 3700 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-18 19:02:55.995  INFO 3700 --- [restartedMain] com.kangyi.MainApplication               : No active profile set, falling back to default profiles: default
+2022-07-18 19:02:57.322  WARN 3700 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-07-18 19:02:57.685  INFO 3700 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-18 19:02:57.687  INFO 3700 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-18 19:02:57.763  INFO 3700 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 0 Redis repository interfaces.
+2022-07-18 19:02:57.874  WARN 3700 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-18 19:02:58.094  INFO 3700 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d4101f05-ddd2-347d-87ad-d44b0b4263b3
+2022-07-18 19:02:58.102  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myConfig' of type [com.kangyi.config.MyConfig$$EnhancerBySpringCGLIB$$75aab1e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:58.147  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:58.251  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:58.268  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$c07c46c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:58.271  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$9c5fcf9c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:58.273  INFO 3700 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-18 19:02:58.346  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:58.394  INFO 3700 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-18 19:02:58.394  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:59.486  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:59.493  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:59.494  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:59.496  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [com.sun.proxy.$Proxy84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:59.499  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:59.500  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [com.sun.proxy.$Proxy85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:59.501  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.kangyi.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:59.506  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:59.507  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:59.507  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.kangyi.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:59.507  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.kangyi.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:02:59.994  INFO 3700 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'manager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:03:00.762  INFO 3700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9600 (http)
+2022-07-18 19:03:00.775  INFO 3700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-18 19:03:00.775  INFO 3700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-18 19:03:00.778  INFO 3700 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-07-18 19:03:00.778  INFO 3700 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-18 19:03:00.778  INFO 3700 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-18 19:03:00.782  INFO 3700 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-07-18 19:03:01.289  INFO 3700 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-18 19:03:01.297  INFO 3700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-18 19:03:01.297  INFO 3700 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5278 ms
+2022-07-18 19:03:01.437  WARN 3700 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-18 19:03:01.437  INFO 3700 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-18 19:03:01.452  INFO 3700 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2fcfbfb8
+2022-07-18 19:03:02.184  INFO 3700 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-07-18 19:03:02.195  INFO 3700 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-07-18 19:03:02.195  INFO 3700 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-07-18 19:03:02.196  INFO 3700 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-07-18 19:03:02.197  INFO 3700 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-18 19:03:02.197  INFO 3700 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-07-18 19:03:02.197  INFO 3700 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-07-18 19:03:02.197  INFO 3700 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@d543ad8
+2022-07-18 19:03:04.140  INFO 3700 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-18 19:03:04.556  INFO 3700 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-07-18 19:03:04.636  INFO 3700 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'MyThreadPool'
+2022-07-18 19:03:04.667  INFO 3700 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-18 19:03:04.689  WARN 3700 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-18 19:03:04.690  INFO 3700 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-18 19:03:04.865  INFO 3700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-18 19:03:05.423  INFO 3700 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2022-07-18 19:03:07.175  INFO 3700 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-18 19:03:07.425  INFO 3700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9600 (http) with context path ''
+2022-07-18 19:03:07.438  INFO 3700 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP main 169.254.80.27:9600 register finished
+2022-07-18 19:03:08.870  INFO 3700 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-18 19:03:08.871  INFO 3700 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-18 19:03:08.887  INFO 3700 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-18 19:03:08.938  INFO 3700 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-18 19:03:09.122  WARN 3700 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:03:09.125  WARN 3700 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:03:09.126  WARN 3700 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:03:09.127  WARN 3700 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:03:09.128  WARN 3700 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:03:09.128  WARN 3700 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:03:09.129  WARN 3700 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:03:09.130  WARN 3700 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:03:09.198  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_1
+2022-07-18 19:03:09.199  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_1
+2022-07-18 19:03:09.201  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_1
+2022-07-18 19:03:09.202  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_1
+2022-07-18 19:03:09.203  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_1
+2022-07-18 19:03:09.205  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_1
+2022-07-18 19:03:09.206  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_1
+2022-07-18 19:03:09.207  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_1
+2022-07-18 19:03:09.236  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingGET_1
+2022-07-18 19:03:09.237  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingHEAD_1
+2022-07-18 19:03:09.238  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPOST_1
+2022-07-18 19:03:09.239  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPUT_1
+2022-07-18 19:03:09.240  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPATCH_1
+2022-07-18 19:03:09.240  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingDELETE_1
+2022-07-18 19:03:09.241  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingOPTIONS_1
+2022-07-18 19:03:09.242  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingTRACE_1
+2022-07-18 19:03:09.245  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_2
+2022-07-18 19:03:09.248  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_2
+2022-07-18 19:03:09.251  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_2
+2022-07-18 19:03:09.254  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_2
+2022-07-18 19:03:09.256  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_2
+2022-07-18 19:03:09.259  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_2
+2022-07-18 19:03:09.261  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_2
+2022-07-18 19:03:09.264  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_2
+2022-07-18 19:03:09.325  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingGET_1
+2022-07-18 19:03:09.326  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingHEAD_1
+2022-07-18 19:03:09.327  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPOST_1
+2022-07-18 19:03:09.329  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPUT_1
+2022-07-18 19:03:09.330  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPATCH_1
+2022-07-18 19:03:09.331  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingDELETE_1
+2022-07-18 19:03:09.332  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingOPTIONS_1
+2022-07-18 19:03:09.333  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingTRACE_1
+2022-07-18 19:03:09.345  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingGET_1
+2022-07-18 19:03:09.345  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingHEAD_1
+2022-07-18 19:03:09.346  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPOST_1
+2022-07-18 19:03:09.346  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPUT_1
+2022-07-18 19:03:09.347  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPATCH_1
+2022-07-18 19:03:09.347  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingDELETE_1
+2022-07-18 19:03:09.348  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingOPTIONS_1
+2022-07-18 19:03:09.348  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingTRACE_1
+2022-07-18 19:03:09.349  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingGET_1
+2022-07-18 19:03:09.350  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingHEAD_1
+2022-07-18 19:03:09.350  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPOST_1
+2022-07-18 19:03:09.351  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPUT_1
+2022-07-18 19:03:09.352  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPATCH_1
+2022-07-18 19:03:09.352  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingDELETE_1
+2022-07-18 19:03:09.353  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingOPTIONS_1
+2022-07-18 19:03:09.353  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingTRACE_1
+2022-07-18 19:03:09.363  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingGET_1
+2022-07-18 19:03:09.364  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingHEAD_1
+2022-07-18 19:03:09.365  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPOST_1
+2022-07-18 19:03:09.366  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPUT_1
+2022-07-18 19:03:09.366  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPATCH_1
+2022-07-18 19:03:09.367  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingDELETE_1
+2022-07-18 19:03:09.368  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingOPTIONS_1
+2022-07-18 19:03:09.368  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingTRACE_1
+2022-07-18 19:03:09.415  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2022-07-18 19:03:09.417  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingHEAD_1
+2022-07-18 19:03:09.419  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingPOST_1
+2022-07-18 19:03:09.422  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingPUT_1
+2022-07-18 19:03:09.424  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingPATCH_1
+2022-07-18 19:03:09.427  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingDELETE_1
+2022-07-18 19:03:09.429  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingOPTIONS_1
+2022-07-18 19:03:09.432  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingTRACE_1
+2022-07-18 19:03:09.447  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingGET_1
+2022-07-18 19:03:09.448  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingHEAD_1
+2022-07-18 19:03:09.448  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingPOST_1
+2022-07-18 19:03:09.449  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingPUT_1
+2022-07-18 19:03:09.450  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingPATCH_1
+2022-07-18 19:03:09.451  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingDELETE_1
+2022-07-18 19:03:09.451  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingOPTIONS_1
+2022-07-18 19:03:09.452  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingTRACE_1
+2022-07-18 19:03:09.663  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingGET_2
+2022-07-18 19:03:09.664  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingHEAD_2
+2022-07-18 19:03:09.664  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPOST_2
+2022-07-18 19:03:09.665  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPUT_2
+2022-07-18 19:03:09.665  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPATCH_2
+2022-07-18 19:03:09.666  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingDELETE_2
+2022-07-18 19:03:09.666  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingOPTIONS_2
+2022-07-18 19:03:09.667  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingTRACE_2
+2022-07-18 19:03:09.669  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_3
+2022-07-18 19:03:09.672  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_3
+2022-07-18 19:03:09.674  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_3
+2022-07-18 19:03:09.676  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_3
+2022-07-18 19:03:09.679  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_3
+2022-07-18 19:03:09.682  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_3
+2022-07-18 19:03:09.684  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_3
+2022-07-18 19:03:09.686  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_3
+2022-07-18 19:03:09.741  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingGET_1
+2022-07-18 19:03:09.741  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingHEAD_1
+2022-07-18 19:03:09.741  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPOST_1
+2022-07-18 19:03:09.742  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPUT_1
+2022-07-18 19:03:09.742  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPATCH_1
+2022-07-18 19:03:09.742  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingDELETE_1
+2022-07-18 19:03:09.742  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingOPTIONS_1
+2022-07-18 19:03:09.743  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingTRACE_1
+2022-07-18 19:03:09.752  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingGET_1
+2022-07-18 19:03:09.753  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingHEAD_1
+2022-07-18 19:03:09.753  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingPOST_1
+2022-07-18 19:03:09.754  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingPUT_1
+2022-07-18 19:03:09.754  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingPATCH_1
+2022-07-18 19:03:09.755  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingDELETE_1
+2022-07-18 19:03:09.756  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingOPTIONS_1
+2022-07-18 19:03:09.756  INFO 3700 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingTRACE_1
+2022-07-18 19:03:09.828  INFO 3700 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2022-07-18 19:03:09.829  INFO 3700 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-07-18 19:03:09.854  INFO 3700 --- [restartedMain] com.kangyi.MainApplication               : Started MainApplication in 17.874 seconds (JVM running for 19.422)
+2022-07-18 19:03:14.002  WARN 3700 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=main, managementUrl=http://iia9903.mshome.net:9600/actuator, healthUrl=http://iia9903.mshome.net:9600/actuator/health, serviceUrl=http://iia9903.mshome.net:9600/) at spring-boot-admin ([http://localhost:9100/instances]): I/O error on POST request for "http://localhost:9100/instances": Connect to localhost:9100 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9100 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect. Further attempts are logged on DEBUG level
+2022-07-18 19:03:19.681  INFO 3700 --- [http-nio-9600-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-18 19:03:19.682  INFO 3700 --- [http-nio-9600-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-18 19:03:19.692  INFO 3700 --- [http-nio-9600-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-07-18 19:03:19.784 ERROR 3700 --- [http-nio-9600-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.kangyi.controller.LoginController.loginAdmin(LoginController.java:91) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_271]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) ~[shiro-web-1.7.0.jar:1.7.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.7.0.jar:1.7.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.7.0.jar:1.7.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.7.0.jar:1.7.0]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.7.0.jar:1.7.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) ~[shiro-web-1.7.0.jar:1.7.0]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) ~[shiro-web-1.7.0.jar:1.7.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.7.0.jar:1.7.0]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) ~[shiro-web-1.7.0.jar:1.7.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:450) ~[shiro-web-1.7.0.jar:1.7.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) ~[shiro-web-1.7.0.jar:1.7.0]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) ~[shiro-core-1.7.0.jar:1.7.0]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) ~[shiro-core-1.7.0.jar:1.7.0]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387) ~[shiro-core-1.7.0.jar:1.7.0]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) ~[shiro-web-1.7.0.jar:1.7.0]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) ~[shiro-web-1.7.0.jar:1.7.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at com.kangyi.config.RemoveUrlJsessionIdFilte.doFilter(RemoveUrlJsessionIdFilte.java:66) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at com.kangyi.config.CorsFilter.doFilter(CorsFilter.java:62) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:93) ~[spring-boot-actuator-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_271]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_271]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_271]
+
+2022-07-18 19:24:42.818  INFO 18200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-18 19:24:44.804  INFO 18200 --- [restartedMain] com.kangyi.MainApplication               : No active profile set, falling back to default profiles: default
+2022-07-18 19:24:46.120  WARN 18200 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-07-18 19:24:46.525  INFO 18200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-18 19:24:46.528  INFO 18200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-18 19:24:46.594  INFO 18200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49ms. Found 0 Redis repository interfaces.
+2022-07-18 19:24:46.720  WARN 18200 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-18 19:24:46.942  INFO 18200 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d4101f05-ddd2-347d-87ad-d44b0b4263b3
+2022-07-18 19:24:46.951  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myConfig' of type [com.kangyi.config.MyConfig$$EnhancerBySpringCGLIB$$91ff0e73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:46.995  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:47.099  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:47.116  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$dcd0a350] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:47.119  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$b8b42c28] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:47.121  INFO 18200 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-18 19:24:47.193  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:47.241  INFO 18200 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-18 19:24:47.241  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:48.338  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:48.345  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:48.346  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:48.348  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [com.sun.proxy.$Proxy84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:48.352  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:48.352  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [com.sun.proxy.$Proxy85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:48.353  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.kangyi.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:48.358  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:48.359  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:48.359  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.kangyi.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:48.359  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.kangyi.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:48.847  INFO 18200 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'manager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 19:24:49.584  INFO 18200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9600 (http)
+2022-07-18 19:24:49.597  INFO 18200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-18 19:24:49.598  INFO 18200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-18 19:24:49.600  INFO 18200 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-07-18 19:24:49.600  INFO 18200 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-18 19:24:49.600  INFO 18200 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-18 19:24:49.604  INFO 18200 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-07-18 19:24:50.110  INFO 18200 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-18 19:24:50.117  INFO 18200 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-18 19:24:50.117  INFO 18200 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5288 ms
+2022-07-18 19:24:50.248  WARN 18200 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-18 19:24:50.248  INFO 18200 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-18 19:24:50.262  INFO 18200 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@73ab5626
+2022-07-18 19:24:50.973  INFO 18200 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-07-18 19:24:50.984  INFO 18200 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-07-18 19:24:50.984  INFO 18200 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-07-18 19:24:50.985  INFO 18200 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-07-18 19:24:50.985  INFO 18200 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-18 19:24:50.986  INFO 18200 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-07-18 19:24:50.986  INFO 18200 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-07-18 19:24:50.986  INFO 18200 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2d9e72ec
+2022-07-18 19:24:52.934  INFO 18200 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-18 19:24:53.352  INFO 18200 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-07-18 19:24:53.433  INFO 18200 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'MyThreadPool'
+2022-07-18 19:24:53.465  INFO 18200 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-18 19:24:53.487  WARN 18200 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-18 19:24:53.487  INFO 18200 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-18 19:24:53.660  INFO 18200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-18 19:24:54.213  INFO 18200 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2022-07-18 19:24:55.972  INFO 18200 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-18 19:24:56.232  INFO 18200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9600 (http) with context path ''
+2022-07-18 19:24:56.246  INFO 18200 --- [restartedMain] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP main-service 169.254.80.27:9600 register finished
+2022-07-18 19:24:57.691  INFO 18200 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-18 19:24:57.693  INFO 18200 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-18 19:24:57.710  INFO 18200 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-18 19:24:57.758  INFO 18200 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-18 19:24:57.940  WARN 18200 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:24:57.943  WARN 18200 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:24:57.944  WARN 18200 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:24:57.944  WARN 18200 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:24:57.945  WARN 18200 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:24:57.946  WARN 18200 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:24:57.947  WARN 18200 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:24:57.948  WARN 18200 --- [restartedMain] s.d.s.w.r.p.ParameterDataTypeReader      : Trying to infer dataType java.util.List<com.kangyi.pojo.Order>
+2022-07-18 19:24:58.016  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_1
+2022-07-18 19:24:58.018  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_1
+2022-07-18 19:24:58.019  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_1
+2022-07-18 19:24:58.020  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_1
+2022-07-18 19:24:58.022  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_1
+2022-07-18 19:24:58.023  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_1
+2022-07-18 19:24:58.024  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_1
+2022-07-18 19:24:58.026  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_1
+2022-07-18 19:24:58.056  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingGET_1
+2022-07-18 19:24:58.057  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingHEAD_1
+2022-07-18 19:24:58.057  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPOST_1
+2022-07-18 19:24:58.058  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPUT_1
+2022-07-18 19:24:58.059  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPATCH_1
+2022-07-18 19:24:58.060  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingDELETE_1
+2022-07-18 19:24:58.061  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingOPTIONS_1
+2022-07-18 19:24:58.062  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingTRACE_1
+2022-07-18 19:24:58.065  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_2
+2022-07-18 19:24:58.068  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_2
+2022-07-18 19:24:58.071  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_2
+2022-07-18 19:24:58.073  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_2
+2022-07-18 19:24:58.076  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_2
+2022-07-18 19:24:58.078  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_2
+2022-07-18 19:24:58.081  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_2
+2022-07-18 19:24:58.084  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_2
+2022-07-18 19:24:58.146  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingGET_1
+2022-07-18 19:24:58.147  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingHEAD_1
+2022-07-18 19:24:58.148  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPOST_1
+2022-07-18 19:24:58.149  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPUT_1
+2022-07-18 19:24:58.150  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPATCH_1
+2022-07-18 19:24:58.152  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingDELETE_1
+2022-07-18 19:24:58.153  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingOPTIONS_1
+2022-07-18 19:24:58.154  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingTRACE_1
+2022-07-18 19:24:58.166  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingGET_1
+2022-07-18 19:24:58.166  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingHEAD_1
+2022-07-18 19:24:58.167  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPOST_1
+2022-07-18 19:24:58.167  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPUT_1
+2022-07-18 19:24:58.168  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPATCH_1
+2022-07-18 19:24:58.168  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingDELETE_1
+2022-07-18 19:24:58.169  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingOPTIONS_1
+2022-07-18 19:24:58.169  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingTRACE_1
+2022-07-18 19:24:58.170  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingGET_1
+2022-07-18 19:24:58.171  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingHEAD_1
+2022-07-18 19:24:58.172  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPOST_1
+2022-07-18 19:24:58.172  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPUT_1
+2022-07-18 19:24:58.173  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPATCH_1
+2022-07-18 19:24:58.174  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingDELETE_1
+2022-07-18 19:24:58.174  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingOPTIONS_1
+2022-07-18 19:24:58.175  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingTRACE_1
+2022-07-18 19:24:58.186  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingGET_1
+2022-07-18 19:24:58.187  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingHEAD_1
+2022-07-18 19:24:58.187  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPOST_1
+2022-07-18 19:24:58.188  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPUT_1
+2022-07-18 19:24:58.189  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPATCH_1
+2022-07-18 19:24:58.189  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingDELETE_1
+2022-07-18 19:24:58.190  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingOPTIONS_1
+2022-07-18 19:24:58.191  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingTRACE_1
+2022-07-18 19:24:58.238  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingGET_1
+2022-07-18 19:24:58.241  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingHEAD_1
+2022-07-18 19:24:58.243  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingPOST_1
+2022-07-18 19:24:58.246  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingPUT_1
+2022-07-18 19:24:58.247  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingPATCH_1
+2022-07-18 19:24:58.251  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingDELETE_1
+2022-07-18 19:24:58.253  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingOPTIONS_1
+2022-07-18 19:24:58.255  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: indexUsingTRACE_1
+2022-07-18 19:24:58.272  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingGET_1
+2022-07-18 19:24:58.273  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingHEAD_1
+2022-07-18 19:24:58.274  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingPOST_1
+2022-07-18 19:24:58.274  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingPUT_1
+2022-07-18 19:24:58.275  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingPATCH_1
+2022-07-18 19:24:58.276  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingDELETE_1
+2022-07-18 19:24:58.276  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingOPTIONS_1
+2022-07-18 19:24:58.277  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListForPageUsingTRACE_1
+2022-07-18 19:24:58.473  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingGET_2
+2022-07-18 19:24:58.474  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingHEAD_2
+2022-07-18 19:24:58.474  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPOST_2
+2022-07-18 19:24:58.475  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPUT_2
+2022-07-18 19:24:58.475  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingPATCH_2
+2022-07-18 19:24:58.476  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingDELETE_2
+2022-07-18 19:24:58.476  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingOPTIONS_2
+2022-07-18 19:24:58.477  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: delectUsingTRACE_2
+2022-07-18 19:24:58.479  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingGET_3
+2022-07-18 19:24:58.482  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingHEAD_3
+2022-07-18 19:24:58.484  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPOST_3
+2022-07-18 19:24:58.486  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPUT_3
+2022-07-18 19:24:58.488  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingPATCH_3
+2022-07-18 19:24:58.491  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingDELETE_3
+2022-07-18 19:24:58.493  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingOPTIONS_3
+2022-07-18 19:24:58.495  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getListUsingTRACE_3
+2022-07-18 19:24:58.546  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingGET_1
+2022-07-18 19:24:58.547  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingHEAD_1
+2022-07-18 19:24:58.547  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPOST_1
+2022-07-18 19:24:58.547  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPUT_1
+2022-07-18 19:24:58.548  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingPATCH_1
+2022-07-18 19:24:58.548  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingDELETE_1
+2022-07-18 19:24:58.548  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingOPTIONS_1
+2022-07-18 19:24:58.549  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: errorUsingTRACE_1
+2022-07-18 19:24:58.558  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingGET_1
+2022-07-18 19:24:58.558  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingHEAD_1
+2022-07-18 19:24:58.559  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingPOST_1
+2022-07-18 19:24:58.560  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingPUT_1
+2022-07-18 19:24:58.560  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingPATCH_1
+2022-07-18 19:24:58.561  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingDELETE_1
+2022-07-18 19:24:58.561  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingOPTIONS_1
+2022-07-18 19:24:58.562  INFO 18200 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserListForPageUsingTRACE_1
+2022-07-18 19:24:58.635  INFO 18200 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2022-07-18 19:24:58.636  INFO 18200 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-07-18 19:24:58.661  INFO 18200 --- [restartedMain] com.kangyi.MainApplication               : Started MainApplication in 17.879 seconds (JVM running for 19.457)
+2022-07-18 19:24:58.806  INFO 18200 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 04b0bcd7dcd1
+2022-07-18 19:24:58.838  INFO 18200 --- [http-nio-9600-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-18 19:24:58.838  INFO 18200 --- [http-nio-9600-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-18 19:24:58.848  INFO 18200 --- [http-nio-9600-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2022-07-18 19:24:58.917  INFO 18200 --- [http-nio-9600-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2022-07-18 19:24:58.962  INFO 18200 --- [http-nio-9600-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#41d91272:0/SimpleConnection@7771cf97 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57112]
+2022-07-18 19:30:54.913  WARN 18200 --- [http-nio-9600-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'username' is not present]

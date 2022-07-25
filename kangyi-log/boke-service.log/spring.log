@@ -1,0 +1,354 @@
+2022-07-25 15:53:09.631  INFO 15576 --- [main] com.kangyi.BokeApplication               : No active profile set, falling back to default profiles: default
+2022-07-25 15:53:11.252  WARN 15576 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-07-25 15:53:11.632  INFO 15576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-25 15:53:11.635  INFO 15576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-25 15:53:11.696  INFO 15576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+2022-07-25 15:53:11.813  WARN 15576 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-25 15:53:11.972  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.kangyi.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.972  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'geLiMapper' and 'com.kangyi.mapper.GeLiMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.973  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guanzhuMapper' and 'com.kangyi.mapper.GuanzhuMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.973  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guiJiMapper' and 'com.kangyi.mapper.GuiJiMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.973  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'heSuanMapper' and 'com.kangyi.mapper.HeSuanMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.973  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'jiaruMapper' and 'com.kangyi.mapper.JiaruMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.973  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'logMapMapper' and 'com.kangyi.mapper.LogMapMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.973  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'logMapper' and 'com.kangyi.mapper.LogMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.973  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'logMapper2' and 'com.kangyi.mapper.LogMapper2' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.973  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'menuMapper' and 'com.kangyi.mapper.MenuMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.974  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'menuRoleMapper' and 'com.kangyi.mapper.MenuRoleMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.974  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderMapper' and 'com.kangyi.mapper.OrderMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.974  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'permissionMapper' and 'com.kangyi.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.974  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'quartzBeanMapper' and 'com.kangyi.mapper.QuartzBeanMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.974  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roleMapper' and 'com.kangyi.mapper.RoleMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.974  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'rolePermissionMapper' and 'com.kangyi.mapper.RolePermissionMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.974  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.kangyi.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.974  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'yiMiaoMapper' and 'com.kangyi.mapper.YiMiaoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 15:53:11.975  WARN 15576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.kangyi.mapper]' package. Please check your configuration.
+2022-07-25 15:53:12.103  INFO 15576 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=79eaffbc-4d70-3c9f-a5a2-f4bdfd7c63d3
+2022-07-25 15:53:12.112  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'myConfig' of type [com.kangyi.config.MyConfig$$EnhancerBySpringCGLIB$$8845bd91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:12.176  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.kangyi.feign.MapFeignService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:12.177  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.kangyi.feign.TestFeignService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:12.179  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.kangyi.feign.TokenService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:12.209  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:12.326  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:12.343  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$d317526e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:12.346  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$aefadb46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:12.348  INFO 15576 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-25 15:53:12.422  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:12.483  INFO 15576 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-25 15:53:12.483  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:13.645  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:13.652  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:13.653  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:13.655  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [com.sun.proxy.$Proxy79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:13.658  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:13.659  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [com.sun.proxy.$Proxy80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:13.660  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.kangyi.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:13.665  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:13.666  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [com.sun.proxy.$Proxy82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:13.666  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.kangyi.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:13.666  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.kangyi.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:14.175  INFO 15576 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'manager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 15:53:14.839  INFO 15576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9401 (http)
+2022-07-25 15:53:14.852  INFO 15576 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 15:53:14.852  INFO 15576 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-25 15:53:14.854  INFO 15576 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-07-25 15:53:14.854  INFO 15576 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-25 15:53:14.854  INFO 15576 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-25 15:53:14.859  INFO 15576 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-07-25 15:53:15.353  INFO 15576 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-25 15:53:15.360  INFO 15576 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-25 15:53:15.361  INFO 15576 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5676 ms
+2022-07-25 15:53:15.495  WARN 15576 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 15:53:15.496  INFO 15576 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 15:53:15.511  INFO 15576 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@33de7f3d
+2022-07-25 15:53:18.524  INFO 15576 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 15:53:19.017  INFO 15576 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-07-25 15:53:19.104  INFO 15576 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'MyThreadPool'
+2022-07-25 15:53:19.137  INFO 15576 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-25 15:53:19.160  WARN 15576 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 15:53:19.160  INFO 15576 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 15:53:19.916  INFO 15576 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2022-07-25 15:53:20.190  INFO 15576 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-07-25 15:53:20.203  INFO 15576 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-07-25 15:53:20.204  INFO 15576 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-07-25 15:53:20.205  INFO 15576 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-07-25 15:53:20.205  INFO 15576 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-25 15:53:20.205  INFO 15576 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-07-25 15:53:20.205  INFO 15576 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-07-25 15:53:20.206  INFO 15576 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6bd2f039
+2022-07-25 15:53:20.241  WARN 15576 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-07-25 15:53:21.711  INFO 15576 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 15:53:30.060  INFO 15576 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9401 (http) with context path ''
+2022-07-25 15:53:38.193 ERROR 15576 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, boke-service register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='boke-service', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={management.port=9401, preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='169.254.80.27', networkInterface='', port=9401, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+
+com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:552) ~[nacos-client-1.3.2.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:491) ~[nacos-client-1.3.2.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:486) ~[nacos-client-1.3.2.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:239) ~[nacos-client-1.3.2.jar:na]
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:200) ~[nacos-client-1.3.2.jar:na]
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:70) ~[spring-cloud-starter-alibaba-nacos-discovery-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239) [spring-cloud-commons-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:76) [spring-cloud-starter-alibaba-nacos-discovery-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138) [spring-cloud-commons-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101) [spring-cloud-commons-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88) [spring-cloud-commons-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47) [spring-cloud-commons-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at com.kangyi.BokeApplication.main(BokeApplication.java:22) [classes/:na]
+
+2022-07-25 15:53:38.194  WARN 15576 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2022-07-25 15:53:38.195  INFO 15576 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2022-07-25 15:53:38.195  INFO 15576 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2022-07-25 15:53:38.195  INFO 15576 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2022-07-25 15:53:38.196  INFO 15576 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2022-07-25 15:53:38.197  INFO 15576 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2022-07-25 15:53:38.199  INFO 15576 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'MyThreadPool'
+2022-07-25 15:53:50.349  WARN 15576 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception thrown from ApplicationListener handling ContextClosedEvent
+
+org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'registrationListener': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:220) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:332) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:297) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:190) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:153) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:410) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1013) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:979) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:93) [spring-cloud-context-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1092) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1085) [spring-beans-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1061) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) [spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at com.kangyi.BokeApplication.main(BokeApplication.java:22) [classes/:na]
+
+2022-07-25 15:53:50.381  INFO 15576 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-07-25 15:53:50.382  INFO 15576 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-07-25 15:53:50.660  INFO 15576 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-25 15:53:50.719  INFO 15576 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-25 15:53:50.745 ERROR 15576 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:185) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:53) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:360) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:158) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:122) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:895) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:554) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at com.kangyi.BokeApplication.main(BokeApplication.java:22) [classes/:na]
+Caused by: java.lang.reflect.UndeclaredThrowableException: null
+	at org.springframework.util.ReflectionUtils.rethrowRuntimeException(ReflectionUtils.java:147) ~[spring-core-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:79) ~[spring-cloud-starter-alibaba-nacos-discovery-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239) ~[spring-cloud-commons-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:76) ~[spring-cloud-starter-alibaba-nacos-discovery-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138) ~[spring-cloud-commons-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101) ~[spring-cloud-commons-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88) ~[spring-cloud-commons-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47) ~[spring-cloud-commons-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:404) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:361) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:46) ~[spring-boot-2.3.7.RELEASE.jar:2.3.7.RELEASE]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182) ~[spring-context-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	... 14 common frames omitted
+Caused by: com.alibaba.nacos.api.exception.NacosException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:552) ~[nacos-client-1.3.2.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:491) ~[nacos-client-1.3.2.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:486) ~[nacos-client-1.3.2.jar:na]
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:239) ~[nacos-client-1.3.2.jar:na]
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:200) ~[nacos-client-1.3.2.jar:na]
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:70) ~[spring-cloud-starter-alibaba-nacos-discovery-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	... 27 common frames omitted
+
+2022-07-25 16:17:57.468  INFO 16604 --- [main] com.kangyi.BokeApplication               : No active profile set, falling back to default profiles: default
+2022-07-25 16:17:59.058  WARN 16604 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-07-25 16:17:59.516  INFO 16604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-25 16:17:59.519  INFO 16604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-25 16:17:59.589  INFO 16604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 0 Redis repository interfaces.
+2022-07-25 16:17:59.700  WARN 16604 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-25 16:17:59.829  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'commentMapper' and 'com.kangyi.mapper.CommentMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.830  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'geLiMapper' and 'com.kangyi.mapper.GeLiMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.830  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guanzhuMapper' and 'com.kangyi.mapper.GuanzhuMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.830  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'guiJiMapper' and 'com.kangyi.mapper.GuiJiMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.830  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'heSuanMapper' and 'com.kangyi.mapper.HeSuanMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.830  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'jiaruMapper' and 'com.kangyi.mapper.JiaruMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.830  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'logMapMapper' and 'com.kangyi.mapper.LogMapMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.831  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'logMapper' and 'com.kangyi.mapper.LogMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.831  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'logMapper2' and 'com.kangyi.mapper.LogMapper2' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.831  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'menuMapper' and 'com.kangyi.mapper.MenuMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.831  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'menuRoleMapper' and 'com.kangyi.mapper.MenuRoleMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.831  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'orderMapper' and 'com.kangyi.mapper.OrderMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.831  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'permissionMapper' and 'com.kangyi.mapper.PermissionMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.832  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'quartzBeanMapper' and 'com.kangyi.mapper.QuartzBeanMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.832  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'roleMapper' and 'com.kangyi.mapper.RoleMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.832  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'rolePermissionMapper' and 'com.kangyi.mapper.RolePermissionMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.832  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.kangyi.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.832  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'yiMiaoMapper' and 'com.kangyi.mapper.YiMiaoMapper' mapperInterface. Bean already defined with the same name!
+2022-07-25 16:17:59.832  WARN 16604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.kangyi.mapper]' package. Please check your configuration.
+2022-07-25 16:17:59.964  INFO 16604 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=79eaffbc-4d70-3c9f-a5a2-f4bdfd7c63d3
+2022-07-25 16:17:59.977  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'myConfig' of type [com.kangyi.config.MyConfig$$EnhancerBySpringCGLIB$$5d32cc9c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:00.054  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.kangyi.feign.MapFeignService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:00.056  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.kangyi.feign.TestFeignService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:00.057  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.kangyi.feign.TokenService' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:00.093  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:00.225  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:00.245  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$a8046179] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:00.248  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$83e7ea51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:00.250  INFO 16604 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-07-25 16:18:00.330  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:00.398  INFO 16604 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-07-25 16:18:00.398  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:01.737  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:01.746  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:01.746  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:01.748  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userMapper' of type [com.sun.proxy.$Proxy79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:01.752  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:01.753  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'menuMapper' of type [com.sun.proxy.$Proxy80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:01.754  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.kangyi.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:01.761  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:01.762  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionMapper' of type [com.sun.proxy.$Proxy82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:01.762  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'permissionServiceImpl' of type [com.kangyi.service.impl.PermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:01.763  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userRealm' of type [com.kangyi.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:02.409  INFO 16604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'manager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:03.042  INFO 16604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9401 (http)
+2022-07-25 16:18:03.055  INFO 16604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 16:18:03.056  INFO 16604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-25 16:18:03.058  INFO 16604 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-07-25 16:18:03.058  INFO 16604 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-25 16:18:03.058  INFO 16604 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-25 16:18:03.063  INFO 16604 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-07-25 16:18:03.662  INFO 16604 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-07-25 16:18:03.669  INFO 16604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-25 16:18:03.669  INFO 16604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6171 ms
+2022-07-25 16:18:03.836  WARN 16604 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 16:18:03.836  INFO 16604 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 16:18:03.857  INFO 16604 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5f6494c0
+2022-07-25 16:18:07.115  INFO 16604 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:07.665  INFO 16604 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-07-25 16:18:07.778  INFO 16604 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'MyThreadPool'
+2022-07-25 16:18:07.820  INFO 16604 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-25 16:18:07.853  WARN 16604 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 16:18:07.854  INFO 16604 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 16:18:08.640  INFO 16604 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2022-07-25 16:18:08.920  INFO 16604 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2022-07-25 16:18:08.932  INFO 16604 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-07-25 16:18:08.933  INFO 16604 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2022-07-25 16:18:08.933  INFO 16604 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2022-07-25 16:18:08.934  INFO 16604 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2022-07-25 16:18:08.934  INFO 16604 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2022-07-25 16:18:08.935  INFO 16604 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2022-07-25 16:18:08.935  INFO 16604 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@42db955e
+2022-07-25 16:18:08.967  WARN 16604 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-07-25 16:18:10.506  INFO 16604 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:11.117  INFO 16604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9401 (http) with context path ''
+2022-07-25 16:18:11.558  INFO 16604 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP boke-service 169.254.80.27:9401 register finished
+2022-07-25 16:18:13.125  INFO 16604 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:13.127  INFO 16604 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-07-25 16:18:13.152  INFO 16604 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-07-25 16:18:13.212  INFO 16604 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-07-25 16:18:13.455  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingGET_1
+2022-07-25 16:18:13.458  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingHEAD_1
+2022-07-25 16:18:13.460  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPOST_1
+2022-07-25 16:18:13.463  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPUT_1
+2022-07-25 16:18:13.467  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingPATCH_1
+2022-07-25 16:18:13.470  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingDELETE_1
+2022-07-25 16:18:13.472  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingOPTIONS_1
+2022-07-25 16:18:13.474  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getBokeListUsingTRACE_1
+2022-07-25 16:18:13.503  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingGET_1
+2022-07-25 16:18:13.505  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingHEAD_1
+2022-07-25 16:18:13.507  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPOST_1
+2022-07-25 16:18:13.508  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPUT_1
+2022-07-25 16:18:13.510  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingPATCH_1
+2022-07-25 16:18:13.512  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingDELETE_1
+2022-07-25 16:18:13.513  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingOPTIONS_1
+2022-07-25 16:18:13.514  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: guanzhuBokeUsingTRACE_1
+2022-07-25 16:18:13.516  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingGET_1
+2022-07-25 16:18:13.517  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingHEAD_1
+2022-07-25 16:18:13.518  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPOST_1
+2022-07-25 16:18:13.519  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPUT_1
+2022-07-25 16:18:13.521  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingPATCH_1
+2022-07-25 16:18:13.522  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingDELETE_1
+2022-07-25 16:18:13.524  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingOPTIONS_1
+2022-07-25 16:18:13.525  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: jiaruBokeUsingTRACE_1
+2022-07-25 16:18:13.548  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingGET_1
+2022-07-25 16:18:13.550  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingHEAD_1
+2022-07-25 16:18:13.552  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPOST_1
+2022-07-25 16:18:13.553  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPUT_1
+2022-07-25 16:18:13.555  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingPATCH_1
+2022-07-25 16:18:13.556  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingDELETE_1
+2022-07-25 16:18:13.557  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingOPTIONS_1
+2022-07-25 16:18:13.559  INFO 16604 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updataCommentUsingTRACE_1
+2022-07-25 16:18:13.576  INFO 16604 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2022-07-25 16:18:13.577  INFO 16604 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2022-07-25 16:18:13.613  INFO 16604 --- [main] com.kangyi.BokeApplication               : Started BokeApplication in 20.357 seconds (JVM running for 21.918)
+2022-07-25 16:18:14.036  INFO 16604 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as fb0bac4bc401
+2022-07-25 16:18:14.472  INFO 16604 --- [http-nio-9401-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 16:18:14.472  INFO 16604 --- [http-nio-9401-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 16:18:14.489  INFO 16604 --- [http-nio-9401-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2022-07-25 16:18:15.084  INFO 16604 --- [http-nio-9401-exec-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2022-07-25 16:18:15.286  INFO 16604 --- [http-nio-9401-exec-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2cc34cd5:0/SimpleConnection@36c59c6d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56936]
+2022-07-25 16:21:49.564  WARN 16604 --- [http-nio-9401-exec-8] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/kanyi_cloud?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true, version : 1.2.5, lastPacketReceivedIdleMillis : 213789

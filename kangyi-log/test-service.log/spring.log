@@ -1,0 +1,31 @@
+2022-07-25 16:18:23.278  INFO 18364 --- [main] com.shop.service.test.TestApplication    : No active profile set, falling back to default profiles: default
+2022-07-25 16:18:23.996  WARN 18364 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-07-25 16:18:24.355  WARN 18364 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-25 16:18:24.552  INFO 18364 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=89e1eef3-9e09-3d93-88d7-f6e306297965
+2022-07-25 16:18:25.059  INFO 18364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9500 (http)
+2022-07-25 16:18:25.071  INFO 18364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 16:18:25.071  INFO 18364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-25 16:18:25.073  INFO 18364 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-07-25 16:18:25.073  INFO 18364 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-25 16:18:25.073  INFO 18364 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-25 16:18:25.077  INFO 18364 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-07-25 16:18:25.268  INFO 18364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-25 16:18:25.269  INFO 18364 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1966 ms
+2022-07-25 16:18:25.403  WARN 18364 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 16:18:25.403  INFO 18364 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 16:18:25.424  INFO 18364 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@204e90f7
+2022-07-25 16:18:25.775  WARN 18364 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 16:18:25.776  INFO 18364 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 16:18:26.028  INFO 18364 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-25 16:18:27.875  INFO 18364 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:28.951  INFO 18364 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2022-07-25 16:18:30.552  INFO 18364 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:30.596  INFO 18364 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-07-25 16:18:30.767  INFO 18364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9500 (http) with context path ''
+2022-07-25 16:18:30.782  INFO 18364 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP test-service 169.254.80.27:9500 register finished
+2022-07-25 16:18:32.214  INFO 18364 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:32.235  INFO 18364 --- [main] com.shop.service.test.TestApplication    : Started TestApplication in 13.47 seconds (JVM running for 15.11)
+2022-07-25 16:18:32.357  INFO 18364 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Application registered itself as 5a824d0b5586
+2022-07-25 16:18:32.395  INFO 18364 --- [http-nio-9500-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 16:18:32.396  INFO 18364 --- [http-nio-9500-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 16:18:32.403  INFO 18364 --- [http-nio-9500-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms

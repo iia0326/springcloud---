@@ -1,0 +1,238 @@
+server:
+  port: 8083 #本服务端口8000
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:9100 #springboot admin的连接地址，用来监控该服务，9开头1监控，2日志。3地图。4博客
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #springcloud nacos的连接地址和端口，用来监控发现和注册服务
+    gateway:
+      globalcors: # 全局的跨域处理
+        add-to-simple-url-handler-mapping: true # 解决options请求被拦截问题
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: # 允许哪些网站的跨域请求
+              - "*"
+              #              - "http://localhost:8000"
+              #              - "http://www.zhanyi.fun"
+            allowedMethods: # 允许的跨域ajax的请求方式
+              - "GET"
+              - "POST"
+              - "DELETE"
+              - "PUT"
+              - "OPTIONS"
+            allowedHeaders: "*" # 允许在请求中携带的头信息
+            allowCredentials: true # 是否允许携带cookie
+            maxAge: 360000 # 这次跨域检测的有效期
+      routes: #配置gateway的转发规则
+        - id: main-1-index #规则id
+          uri: lb://main-service #转发到服务端的名称 lb://开头可以让转发规则去注册中心中自动匹配转发的服务地址
+          predicates: #配置触发转发的请求前缀，当访问带有/sp-service/v1/user/字样的地址时会转发到user-service服务中
+            - Path=/index/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+            - name: RequestRateLimiter #限流过滤器
+              args:
+                key-resolver: '#{@hostAddrKeyResolver}' #限流应用的key，存储在redis中
+                redis-rate-limiter.replenishRate: 1 #每秒对桶内存放令牌的数量
+                redis-rate-limiter.burstCapacity: 4 #令牌桶最大容量
+            #重写转发路径去掉请求头 如http://localhost:8000/sp-service/v1/user/test/hello
+            #在转发到user-service的时候将/sp-service/v1/user/部分丢弃保证访问正常
+            #就相当于调用了user-service服务中的/test/hello这个接口
+
+        - id: main-2-erro
+          uri: lb://main-service
+          predicates:
+            - Path=/erro/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+        - id: main-3-menu
+          uri: lb://main-service
+          predicates:
+            - Path=/menu/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+
+        - id: main-4-permission
+          uri: lb://main-service
+          predicates:
+            - Path=/permission/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+
+        - id: main-5-quartz
+          uri: lb://main-service
+          predicates:
+            - Path=/quartz/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+        - id: main-6-role
+          uri: lb://main-service
+          predicates:
+            - Path=/role/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+        - id: main-7-user
+          uri: lb://main-service
+          predicates:
+            - Path=/user/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+        - id: main-8-login
+          uri: lb://main-service
+          predicates:
+            - Path=/login/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+            - name: RequestRateLimiter #限流过滤器
+              args:
+                key-resolver: '#{@hostAddrKeyResolver}' #限流应用的key，存储在redis中
+                redis-rate-limiter.replenishRate: 1 #每秒对桶内存放令牌的数量
+                redis-rate-limiter.burstCapacity: 4 #令牌桶最大容量
+
+
+        - id: main-9-layui
+          uri: lb://main-service
+          predicates:
+            - Path=/layui/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+        - id: map-1-check
+          uri: lb://map-service
+          predicates:
+            - Path=/check/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+        - id: map-2-map
+          uri: lb://map-service
+          predicates:
+            - Path=/map/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+            - name: RequestRateLimiter #限流过滤器
+              args:
+                key-resolver: '#{@hostAddrKeyResolver}' #限流应用的key，存储在redis中
+                redis-rate-limiter.replenishRate: 1 #每秒对桶内存放令牌的数量
+                redis-rate-limiter.burstCapacity: 4 #令牌桶最大容量
+
+        - id: map-3-upload
+          uri: lb://map-service
+          predicates:
+            - Path=/upload/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+
+
+        - id: boke-1-boke
+          uri: lb://boke-service
+          predicates:
+            - Path=/boke/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+            - name: RequestRateLimiter #限流过滤器
+              args:
+                key-resolver: '#{@hostAddrKeyResolver}' #限流应用的key，存储在redis中
+                redis-rate-limiter.replenishRate: 1 #每秒对桶内存放令牌的数量
+                redis-rate-limiter.burstCapacity: 4 #令牌桶最大容量
+
+        - id: boke-2-jiaruAndGuanzhu
+          uri: lb://boke-service
+          predicates:
+            - Path=/jiaruAndGuanzhu/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+        - id: boke-3-message
+          uri: lb://boke-service
+          predicates:
+            - Path=/message/**
+          filters:
+            - RewritePath=/(?<segment>.*), /$\{segment}
+
+
+        #        - id: user-service #规则id
+#          uri: lb://user-service #转发到服务端的名称 lb://开头可以让转发规则去注册中心中自动匹配转发的服务地址
+#          predicates: #配置触发转发的请求前缀，当访问带有/sp-service/v1/user/字样的地址时会转发到user-service服务中
+#            - Path=/sp-service/v1/user/**
+#          filters:
+#            #重写转发路径去掉请求头 如http://localhost:8000/sp-service/v1/user/test/hello
+#            #在转发到user-service的时候将/sp-service/v1/user/部分丢弃保证访问正常
+#            #就相当于调用了user-service服务中的/test/hello这个接口
+#            - RewritePath=/sp-service/v1/user/(?<segment>.*), /$\{segment}
+#        - id: shop-service
+#          uri: lb://shop-service
+#          predicates:
+#            - Path=/sp-service/v1/shop/**
+#          filters:
+#            - RewritePath=/sp-service/v1/shop/(?<segment>.*), /$\{segment}
+        - id: log-service
+          uri: lb://log-service
+          predicates:
+            - Path=/sp-service/v1/log/**
+          filters:
+            - RewritePath=/sp-service/v1/log/(?<segment>.*), /$\{segment}
+#        - id: static-service
+#          uri: lb://log-service
+#          predicates:
+#            - Path=/public/**
+#          filters:
+#            - RewritePath=/public/(?<segment>.*), /public/$\{segment}
+        - id: test-service
+          uri: lb://test-service
+          predicates:
+            - Path=/test/**
+          filters:
+            #在转发到test-service的时候将/sp-service/v1/test/部分丢弃保证访问正常
+            - RewritePath=/(?<segment>.*), /$\{segment}
+            - name: RequestRateLimiter #限流过滤器
+              args:
+                key-resolver: '#{@hostAddrKeyResolver}' #限流应用的key，存储在redis中
+                redis-rate-limiter.replenishRate: 1 #每秒对桶内存放令牌的数量
+                redis-rate-limiter.burstCapacity: 4 #令牌桶最大容量
+      discovery: #服务发现配置，自动发现注册中心的服务并且支持小写字母匹配
+        locator:
+          lower-case-service-id: true
+          enabled: true
+      enabled: true #让gateway生效
+      default-filters: #配置全局过滤器
+        - name: Hystrix  #hystrix熔断过滤器的配置
+          args:
+            name: default #当请求转发的服务没有开启的时候会调用本服务的/defaultfallback并返回相应的结果
+            fallbackUri: 'forward:/defaultfallback'
+
+  application:
+    name: gateway-service #配置gateway注册的服务名称
+hystrix: #熔断降级的配置
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            timeoutInMilliseconds: 30000
+  shareSecurityContext: true
+management: #springboot admin健康监测的可检测数据配置，默认监控所有数据
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+logging: #日志规则配置
+  file:
+    path: kangyi-log/gateway-service.log
+  level:
+    root: info

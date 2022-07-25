@@ -1,0 +1,27 @@
+server:
+  port: 9500
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  boot:
+    admin:
+      client:
+        url: http://localhost:9100
+        enabled: true
+  application:
+    name: test-service
+management:
+  server:
+    port: 9500
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    endpoint:
+      health:
+        show-details: always
+logging:
+  file:
+    path: kangyi-log/test-service.log

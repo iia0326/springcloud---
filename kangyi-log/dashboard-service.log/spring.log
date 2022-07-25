@@ -1,0 +1,60 @@
+2022-07-25 16:18:02.223  INFO 16892 --- [main] com.shop.dashboard.DashboardApplication  : No active profile set, falling back to default profiles: default
+2022-07-25 16:18:03.114  WARN 16892 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2022-07-25 16:18:03.457  INFO 16892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-25 16:18:03.460  INFO 16892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-25 16:18:03.492  INFO 16892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2022-07-25 16:18:03.586  WARN 16892 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2022-07-25 16:18:03.761  INFO 16892 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=024f876d-c304-38f8-b1b9-20684de35322
+2022-07-25 16:18:03.873  INFO 16892 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:03.876  INFO 16892 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:03.878  INFO 16892 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-25 16:18:04.176  INFO 16892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9100 (http)
+2022-07-25 16:18:04.187  INFO 16892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 16:18:04.187  INFO 16892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-25 16:18:04.189  INFO 16892 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-07-25 16:18:04.189  INFO 16892 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2022-07-25 16:18:04.190  INFO 16892 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-25 16:18:04.195  INFO 16892 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-07-25 16:18:04.423  INFO 16892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-25 16:18:04.423  INFO 16892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2157 ms
+2022-07-25 16:18:04.530  WARN 16892 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 16:18:04.530  INFO 16892 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 16:18:04.542  INFO 16892 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7544ac86
+2022-07-25 16:18:04.834  WARN 16892 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-07-25 16:18:04.834  INFO 16892 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-07-25 16:18:05.109  INFO 16892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-25 16:18:05.274  WARN 16892 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-07-25 16:18:06.851  INFO 16892 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:08.470  INFO 16892 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:10.995  INFO 16892 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:12.987  INFO 16892 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:13.054  INFO 16892 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 19 endpoint(s) beneath base path '/actuator'
+2022-07-25 16:18:13.308  INFO 16892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9100 (http) with context path ''
+2022-07-25 16:18:13.335  INFO 16892 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP dashboard-service 169.254.80.27:9100 register finished
+2022-07-25 16:18:13.863  INFO 16892 --- [http-nio-9100-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 16:18:13.864  INFO 16892 --- [http-nio-9100-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 16:18:13.877  INFO 16892 --- [http-nio-9100-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2022-07-25 16:18:16.653  INFO 16892 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:18.322  INFO 16892 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2022-07-25 16:18:18.359  INFO 16892 --- [main] com.shop.dashboard.DashboardApplication  : Started DashboardApplication in 20.272 seconds (JVM running for 21.54)
+2022-07-25 16:21:01.564  INFO 16892 --- [reactor-http-nio-9] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=cf9feaa221b6, version=2, registration=Registration(name=map-service, managementUrl=http://iia9903.mshome.net:9301/actuator, healthUrl=http://iia9903.mshome.net:9301/actuator/health, serviceUrl=http://iia9903.mshome.net:9301/, source=http-api), registered=true, statusInfo=StatusInfo(status=UP, details={}), statusTimestamp=2022-07-25T08:18:46.947Z, info=Info(values={}), endpoints=Endpoints(endpoints={caches=Endpoint(id=caches, url=http://iia9903.mshome.net:9301/actuator/caches), loggers=Endpoint(id=loggers, url=http://iia9903.mshome.net:9301/actuator/loggers), logfile=Endpoint(id=logfile, url=http://iia9903.mshome.net:9301/actuator/logfile), health=Endpoint(id=health, url=http://iia9903.mshome.net:9301/actuator/health), refresh=Endpoint(id=refresh, url=http://iia9903.mshome.net:9301/actuator/refresh), env=Endpoint(id=env, url=http://iia9903.mshome.net:9301/actuator/env), heapdump=Endpoint(id=heapdump, url=http://iia9903.mshome.net:9301/actuator/heapdump), features=Endpoint(id=features, url=http://iia9903.mshome.net:9301/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://iia9903.mshome.net:9301/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://iia9903.mshome.net:9301/actuator/mappings), archaius=Endpoint(id=archaius, url=http://iia9903.mshome.net:9301/actuator/archaius), beans=Endpoint(id=beans, url=http://iia9903.mshome.net:9301/actuator/beans), configprops=Endpoint(id=configprops, url=http://iia9903.mshome.net:9301/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://iia9903.mshome.net:9301/actuator/threaddump), nacos-discovery=Endpoint(id=nacos-discovery, url=http://iia9903.mshome.net:9301/actuator/nacos-discovery), metrics=Endpoint(id=metrics, url=http://iia9903.mshome.net:9301/actuator/metrics), conditions=Endpoint(id=conditions, url=http://iia9903.mshome.net:9301/actuator/conditions), service-registry=Endpoint(id=service-registry, url=http://iia9903.mshome.net:9301/actuator/service-registry), info=Endpoint(id=info, url=http://iia9903.mshome.net:9301/actuator/info)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: iia9903.mshome.net/192.168.137.1:9301
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ Request to GET health [DefaultWebClient]
+Stack trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[na:1.8.0_271]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715) ~[na:1.8.0_271]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at java.lang.Thread.run(Thread.java:748) ~[na:1.8.0_271]
+
