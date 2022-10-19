@@ -44,11 +44,27 @@ Nacos注册中心，feign服务通信，admi监控，gateway网关，nginx负载
 
 本地部署（试运行），平台底层使用Springboot+mybatis开发，解压项目压缩包，并且导入相关试运行数据库文件，修改mybatis的配置信息，由于springboot内部嵌套了Tomcat本地服务器，因此配置好持久层，在idae上运行springboot启动后端服务器，在 VScode启动前端服务器react，即可在地址栏输入http://localhost8083/index即可访问试运行版本,可以无需登录的游客模式访问，也可以用管理员身份:用户名admin,密码123456，进行登录也可以用普通用户身份，用户名：test，密码：12345，进行登录访问。
 
+![](p1.png)
+
+前端react部分地址：
+
+ github : https://github.com/liyongchun01/ep-webapp/tree/master/ep-webapp
 
 
-前端react部分地址：https://github.com/liyongchun01/ep-webapp/tree/master/ep-webapp
 
-后端SpringBoot单体版地址：https://gitee.com/iia_ljh/springboot
+后端SpringBoot单体版地址 ：
+
+gitee: https://gitee.com/iia_ljh/springboot
+
+ github :https://github.com/iia0326/springboot---.git
+
+
+
+后端SpringCloud升级版地址：
+
+gitee: https://gitee.com/iia_ljh/springcloud
+
+ github : https://github.com/iia0326/springcloud---.git
 
 
 
@@ -100,7 +116,7 @@ Nacos注册中心，feign服务通信，admi监控，gateway网关，nginx负载
 
  
 
-第二，为了保证信息的及时可靠性，我们在轨迹模块里使用定时任务，在阿里旗下的夸克搜索引擎里，定时获取轨迹信息，更新到数据库，以避免了用户上传的繁琐。
+第二，为了保证信息的及时可靠性，我们在轨迹模块里使用定时任务，在阿里旗下的夸克搜索引擎里，定时获取轨迹信息，更新到数据库，以避免了用户上传的繁琐，由于地图上轨迹信息较多，我们采用了地图聚集的方法来更加直观展示。
 
  
 
@@ -113,3 +129,54 @@ Nacos注册中心，feign服务通信，admi监控，gateway网关，nginx负载
  
 
 第五，为了方便信息的查看。我们开发了我的信息模块，在评论里，看可以到别人在我所管理的博客下面的所有评论，在回复里，可以看到别人在某篇博客里面所回复我的信息，在系统里，可以看到我所关注的博客的信息更新之后系统所给的提示，并且可以把信息设置为已读。在申请这里，可以看到我发出去的信息，和别人所发给自己的申请，并且每一个都可以进行类型的筛选，比如核酸、疫苗、隔离、轨迹，还有已读和未读状态的筛选。
+
+## 七、流程图
+
+![](lct.png)
+
+
+
+## 八、运行截图
+
+### 游客
+
+![](yk1.png)
+
+![](yk7.png)
+
+![](yk3.png)
+
+![](yk5.png)
+
+![](yk4.png)
+
+![](yk6.png)
+
+### 用户
+
+![](yh1.png)
+
+![](yh2.png)
+
+![](yh3.png)
+
+![](yh4.png)
+
+![](yh5.png)
+
+
+
+### 管理员
+
+![](gl0.png)
+
+![](gl1.png)
+
+![](gl2.png)
+
+![](gl3.png)
+
+![](gl4.png)
+
+![](gl5.png)
+
